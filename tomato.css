@@ -1,0 +1,23 @@
+/* Custom CSS in tomato.css */
+
+/* Ensure that the column class is within a row class */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Adjust the margin between cards */
+.card {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+/* Center card titles */
+.card-title {
+    text-align: center;
+}
+
+/* Center the content inside the card */
+.card-body {
+    text-align: center;
+}
